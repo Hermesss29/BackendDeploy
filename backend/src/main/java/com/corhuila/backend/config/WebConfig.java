@@ -18,7 +18,7 @@ public class WebConfig {
                 registry.addMapping("/**")
                         .allowedOrigins(
                                 "http://localhost:8100",       // Para desarrollo web
-                                "http://192.168.1.13:8100",     // IP de tu PC (para APK en red local)
+      // IP de tu PC (para APK en red local)
                                 "capacitor://localhost",        // Si usas Ionic/Capacitor
                                 "http://localhost"              // Para emuladores
                         )

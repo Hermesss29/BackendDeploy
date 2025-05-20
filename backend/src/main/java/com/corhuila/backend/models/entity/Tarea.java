@@ -96,11 +96,11 @@ public class Tarea {
         this.realizada = realizada;
     }
 
-    public Usuario getUsuario() {
+    public com.corhuila.backend.models.entity.Usuario getUsuario() {
         return usuario;
     }
 
-    public void setUsuario(Usuario usuario) {
+    public void setUsuario(com.corhuila.backend.models.entity.Usuario usuario) {
         this.usuario = usuario;
     }
 }
