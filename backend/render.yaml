@@ -1,6 +1,6 @@
 services:
   - type: web
-    name: app-back-tareas
+    name: backend
     runtime: docker
     plan: free
     envVars:
