@@ -1,0 +1,19 @@
+services:
+  - type: web
+    name: app-back-tareas
+    runtime: docker
+    plan: free
+    envVars:
+      - key: MYSQL_ADDON_HOST
+        value: bq0wp5c2uwobu1twgkii-mysql.services.clever-cloud.com
+      - key: MYSQL_ADDON_DB
+        value: bq0wp5c2uwobu1twgkii
+      - key: MYSQL_ADDON_PORT
+        value: "3306"
+      - key: MYSQL_ADDON_USER
+        value: u92nlxfmle4fvf6h
+      - key: MYSQL_ADDON_PASSWORD
+        value: 7fzsPcj4sDqpfPkoTjwJ
+      - key: MYSQL_ADDON_URI
+        value: mysql://u92nlxfmle4fvf6h:7fzsPcj4sDqpfPkoTjwJ@bq0wp5c2uwobu1twgkii-mysql.services.clever-cloud.com:3306/bq0wp5c2uwobu1twgkii
+
